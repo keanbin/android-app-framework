@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 标题的字体大小 -->
+    <dimen name="title_textSize">20sp</dimen>
+
+    <!-- 标题右边按钮的字体大小 -->
+    <dimen name="title_right_btn_textSize">15sp</dimen>
+
+    <!-- 按钮高度 -->
+    <dimen name="btnHeight">50dp</dimen>
+    
+    <!-- 按钮中文本字体的大小 -->
+    <dimen name="btnTextSize">18sp</dimen>
+
+    <!-- form的高度 -->
+    <dimen name="form_height">44dp</dimen>
+
+    <!-- 页面左右间距 -->
+    <dimen name="activityLeftRightPadding">10dp</dimen>
+    <!-- 页面上下间距 -->
+    <dimen name="activityTopBottmPadding">10dp</dimen>
+
+    <!-- 添加多张图片页面的gridview中的图片的大小 -->
+    <dimen name="img_gridview_width">180dp</dimen>
+    <dimen name="img_gridview_height">230dp</dimen>
+
+    <!-- 添加多张图片页面的gridview中的列表项之间的间距 -->
+    <dimen name="img_gridview_spacing">6dp</dimen>
+
+    <!-- 文本大小一 -->
+    <dimen name="textSizeOne">15sp</dimen>
+
+    <!-- 文本大小二 -->
+    <dimen name="textSizeTwo">13sp</dimen>
+</resources>

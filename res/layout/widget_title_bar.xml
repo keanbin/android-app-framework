@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_titleBarWidget_titleBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_bg" >
+
+    <FrameLayout
+        android:id="@+id/fl_widgetTitleBar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <ImageButton
+            android:id="@+id/imgBtn_titleBarWidget_leftImgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:contentDescription="@string/imagelost"
+            android:paddingLeft="4dp"
+            android:paddingRight="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_titleBarWidget_leftBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <com.keanbin.framework.widget.RotateAnim
+        android:id="@+id/rotateAnim_titleBarWidget_leftRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/fl_widgetTitleBar_left"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_titleBarWidget_titelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/title_textSize" />
+
+    <FrameLayout
+        android:id="@+id/fl_widgetTitleBar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <ImageButton
+            android:id="@+id/imgBtn_titleBarWidget_rightImgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:contentDescription="@string/imagelost"
+            android:paddingLeft="10dp"
+            android:paddingRight="4dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_titleBarWidget_rightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="6dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <com.keanbin.framework.widget.RotateAnim
+        android:id="@+id/rotateAnim_titleBarWidget_rightRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/fl_widgetTitleBar_right"
+        android:visibility="gone" />
+
+</RelativeLayout>

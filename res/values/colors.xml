@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tabTextColor_normal">#44464A</color>
+    <color name="tabTextColor_press">#D90A00</color>
+
+    <!-- ListView 点击时的背景颜色 -->
+    <color name="listItemPressBgColor">#EE796C</color>
+    
+    <!-- 页面背景颜色 -->
+    <color name="activityBgColor">#F5F0EB</color>
+    
+    <!-- 文本的颜色一 -->
+    <color name="textColorOne">#333333</color>  
+    
+    <!-- 文本的颜色二 -->
+    <color name="textColorTwo">#666666</color>
+    
+    <!-- 默认的 ListDialog 点击时的背景颜色 -->
+    <color name="listDialgItemPressBgColor">#EE796C</color>
+    
+
+</resources>

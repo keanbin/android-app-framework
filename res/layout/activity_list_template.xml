@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg" >
+
+    <com.keanbin.framework.widget.XListView
+        android:id="@+id/xlistView_activityIncomeDetail_incomeRecrodList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:focusable="false"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+    <com.keanbin.framework.widget.PointRefresh
+        android:id="@+id/pointRefresh_activityIncomeDetail_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</FrameLayout>
